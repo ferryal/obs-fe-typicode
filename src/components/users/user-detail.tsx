@@ -42,7 +42,7 @@ const UserDetail = ({ user }: Props) => {
         </DialogHeader>
         <Avatar>
           <AvatarImage
-            src={`https://picsum.photos/200/300?random=${user?.id}`}
+            src={`${process.env.NEXT_PUBLIC_BASE_AVATAR_URL}/200/300?random=${user?.id}`}
           />
         </Avatar>
         <div className="flex gap-2 items-center">

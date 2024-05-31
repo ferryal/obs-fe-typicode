@@ -29,7 +29,9 @@ const UserItem = ({ user }: Props) => {
       className="flex flex-wrap items-center px-2 py-1 my-1 space-x-1"
     >
       <Avatar>
-        <AvatarImage src={`https://picsum.photos/200/300?random=${id}`} />
+        <AvatarImage
+          src={`${process.env.NEXT_PUBLIC_BASE_AVATAR_URL}/200/300?random=${id}`}
+        />
       </Avatar>
       <p
         className={`pl-2 font-medium mr-auto grow text-slate-600 dark:text-slate-300`}

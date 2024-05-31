@@ -1,9 +1,13 @@
 # USER-LIST-OBS-FERRYAL
 
+[DEMO](https://obs-fe-ferryal.vercel.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Features
 - CRUD user list
+- User List
+- Detail User
 - Drag n drop user list
 - Filter by name
 
